@@ -1,0 +1,89 @@
+<!--Task 1 : Responsive Landing page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrion Motors | Luxury Car Showroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Skyrion<span>Motors</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#showroom">Showroom</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>ELEVATE YOUR DRIVE</h1>
+            <p>Experience the pinnacle of performance and luxury.</p>
+            <a href="#showroom" class="btn">Explore Inventory</a>
+        </div>
+    </section>
+    <section id="showroom" class="showroom-section">
+        <h2>Featured Fleet</h2>
+        <div class="car-grid">
+            <div class="car-card">
+                <div class="car-img placeholder-1"></div>
+                <div class="car-info">
+                    <h3>Audi R8</h3>
+                    <p>Naturally Aspirated 5.2-liter V10 engine | 562 HP</p>
+                    <span class="price">Rs 2.50 Crore</span>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-img placeholder-2"></div>
+                <div class="car-info">
+                    <h3>Land Rover Defender 110 OCTA Edition</h3>
+                    <p>4.4L Twin-Turbo BMW-Sourced V8 MHEV | 626 bhp</p>
+                    <span class="price">Rs 2.60 Crore</span>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-img placeholder-3"></div>
+                <div class="car-info">
+                    <h3>Porsche GT3 RS</h3>
+                    <p>4.0L naturally aspirated flat-6 | 518 hp</p>
+                    <span class="price">Rs 3.51 Crore</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Skyrion Motors</h2>
+        <div class="about-content">
+            <p>Since 2015, Skyrion Moters has been the premier destination for luxury and high-performance automobiles. We pride ourselves on offering an exclusive curated selection of the world's most coveted vehicles.</p>
+            <div class="about-features">
+                <div class="feature">
+                    <h3>Expert Curation</h3>
+                    <p>Every vehicle in our showroom is handpicked by our team of automotive experts to ensure the highest standards of quality and performance.</p>
+                </div>
+                <div class="feature">
+                    <h3>Personalized Service</h3>
+                    <p>Our dedicated VIP coordinators provide bespoke services tailored to meet the unique needs and preferences of each client.</p>
+                </div>
+                <div class="feature">
+                    <h3>Premium Support</h3>
+                    <p>From test drives to aftermarket customization, we offer comprehensive support throughout your ownership experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="booking-section">
+        <h2>Schedule a VIP Private Viewing</h2>
+        <p>Leave your details and an executive will contact you shortly.</p>
+        <form class="booking-form" onsubmit="event.preventDefault();">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit" class="btn">Request Call</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
